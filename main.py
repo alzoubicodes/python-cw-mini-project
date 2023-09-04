@@ -21,11 +21,11 @@ def rackets_cost(racket_brand):
  # PART 3
 def padel_balls_cost(ball_boxes):
     if ball_boxes == 1:
-        return 2.0
+        return 2
     elif ball_boxes == 2:
         return 3.5
     elif ball_boxes == 3:
-        return 5.0
+        return 5
     else:
         return False
     
@@ -38,3 +38,20 @@ def padel_game_cost():
     total = padel_balls_cost(balls) + rackets_cost(brand) + padel_court_cost(padel_court)
     return total
 print(padel_game_cost())
+
+
+
+
+
+
+
+'''court cost = {padel_court_cost(padel_court)}
+                racket cost = {rackets_cost(brand)}
+                 balls cost = {padel_balls_cost(balls)}
+                 total = '''
+
+
+    
+
+
+        
